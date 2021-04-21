@@ -1,0 +1,11 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+
+  min-height: 100vh;
+  min-width: 320px;
+  max-width: 1248px;
+  box-sizing: border-box;
+
+  margin: 0 auto;
+}

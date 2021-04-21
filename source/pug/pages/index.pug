@@ -1,0 +1,203 @@
+extends ../template/main
+
+block variables
+	- var title = 'Купить продукцию Gallo Acoustics в интернет-магазине Pult.ru'
+	- var desc = 'продукция Gallo Acoustics'
+
+block content
+		main.main
+			h1.visually-hidden Купить продукцию Gallo Acoustics
+			.slider.swiper-container
+				.slider__wrapper.swiper-wrapper
+					.slider__item.swiper-slide
+						a(class="slider__link link" href="#")
+							.slider__banner
+								picture
+									// 1х: 600px; 2x: 1200px
+									source(type="image/webp", srcset="img/micro_micro-se@1x.webp 1x, img/micro_micro-se@2x.webp 2x")
+									img(class="swiper-lazy swiper-lazy-loaded" src="img/micro_micro-se.jpg" srcset="img/micro_micro-se@2x.jpg 2x" alt="Micro-se" width="1200" height="540")
+								p.slider__text.slider__text--blue
+									span побалуй 
+									span себя выбором
+							.slider__footer
+								h2 Micro и micro se
+								span спутниковые колонки
+					.slider__item.swiper-slide
+						a(class="slider__link link" href="#")
+							.slider__banner
+								picture
+									// 1х: 600px; 2x: 1200px
+									source(type="image/webp", srcset="img/droplet@1x.webp 1x, img/droplet@2x.webp 2x")
+									img(class="swiper-lazy swiper-lazy-loaded" src="img/droplet@1x.jpg" srcset="img/droplet@2x.jpg 2x" alt="Droplet" width="1200" height="540")
+								p.slider__text.slider__text--white 
+									span давай 
+									span зажжем
+							.slider__footer
+								h2 droplet
+								span подвесная акустика
+					.slider__item.swiper-slide
+						a(class="slider__link link" href="#")
+							.slider__banner
+								picture
+									// 1х: 600px; 2x: 1200px
+									source(type="image/webp", srcset="img/PROFILESUBx2@1x.webp 1x, img/PROFILESUBx2@2x.webp 2x")
+									img(class="swiper-lazy swiper-lazy-loaded" src="img/PROFILESUBx2.jpg" srcset="img/PROFILESUBx2@2x.jpg 2x" alt="PROFILE SUB" width="1200" height="540")
+								p.slider__text.slider__text--blue
+									span держаться 
+									span в тени
+							.slider__footer
+								h2 PROFILESUB
+								span сабвуфер
+				.swiper-pagination
+			.slider.swiper-container
+				.slider__wrapper.swiper-wrapper
+					.slider__item.swiper-slide
+						a(class="slider__link link" href="#")
+							.slider__banner
+								picture
+									// 1х: 600px; 2x: 1200px
+									source(type="image/webp", srcset="img/micro@1x.webp 1x, img/micro@2x.webp 2x")
+									img(class="swiper-lazy swiper-lazy-loaded" src="img/micro@1x.jpg" srcset="img/micro@2x.jpg 2x" alt="Micro" width="1200" height="540")
+								p.slider__text.slider__text--sale
+									span скидки до
+									span 30%
+							.slider__footer
+								h2 Micro
+					.slider__item.swiper-slide
+						a(class="slider__link link" href="#")
+							.slider__banner
+								picture
+									// 1х: 600px; 2x: 1200px
+									source(type="image/webp", srcset="img/micro-se@1x.webp 1x, img/micro-se@2x.webp 2x")
+									img(class="swiper-lazy swiper-lazy-loaded" src="img/micro-se@1x.jpg" srcset="img/micro-se@2x.jpg 2x" alt="Micro-se" width="1200" height="540")
+								p.slider__text.slider__text--sale
+									span скидки до
+									span 30%
+							.slider__footer
+								h2 Micro se
+					.slider__item.swiper-slide
+						a(class="slider__link link" href="#")
+							.slider__banner
+								picture
+									// 1х: 600px; 2x: 1200px
+									source(type="image/webp", srcset="img/micro-droplet@1x.webp 1x, img/micro-droplet@2x.webp 2x")
+									img(class="swiper-lazy swiper-lazy-loaded" src="img/micro-droplet@1x.jpg" srcset="img/micro-droplet@2x.jpg 2x" alt="Micro-droplet" width="1200" height="540")
+								p.slider__text.slider__text--sale
+									span скидки до
+									span 30%
+							.slider__footer
+								h2 Micro droplet
+					.slider__item.swiper-slide
+						a(class="slider__link link" href="#")
+							.slider__banner
+								picture
+									// 1х: 600px; 2x: 1200px
+									source(type="image/webp", srcset="img/micro-droplet@1x.webp 1x, img/micro-droplet@2x.webp 2x")
+									img(class="swiper-lazy swiper-lazy-loaded" src="img/micro-droplet@1x.jpg" srcset="img/micro-droplet@2x.jpg 2x" alt="Micro se droplet" width="1200" height="540")
+								p.slider__text.slider__text--sale
+									span скидки до
+									span 30%
+							.slider__footer
+								h2 micro se droplet
+					.slider__item.swiper-slide
+						a(class="slider__link link" href="#")
+							.slider__banner
+								picture
+									// 1х: 600px; 2x: 1200px
+									source(type="image/webp", srcset="img/micro-droplet@1x.webp 1x, img/micro-droplet@2x.webp 2x")
+									img(class="swiper-lazy swiper-lazy-loaded" src="img/micro-droplet@1x.jpg" srcset="img/micro-droplet@2x.jpg 2x" alt="adiva droplet" width="1200" height="540")
+								p.slider__text.slider__text--sale
+									span скидки до
+									span 30%
+							.slider__footer
+								h2 adiva droplet
+					.slider__item.swiper-slide
+						a(class="slider__link link" href="#")
+							.slider__banner
+								picture
+									// 1х: 600px; 2x: 1200px
+									source(type="image/webp", srcset="img/micro-droplet@1x.webp 1x, img/micro-droplet@2x.webp 2x")
+									img(class="swiper-lazy swiper-lazy-loaded" src="img/micro-droplet@1x.jpg" srcset="img/micro-droplet@2x.jpg 2x" alt="adiva se droplet" width="1200" height="540")
+								p.slider__text.slider__text--sale
+									span скидки до
+									span 30%
+							.slider__footer
+								h2 adiva se droplet
+					.slider__item.swiper-slide
+						a(class="slider__link link" href="#")
+							.slider__banner
+								picture
+									// 1х: 600px; 2x: 1200px
+									source(type="image/webp", srcset="img/micro@1x.webp 1x, img/micro@2x.webp 2x")
+									img(class="swiper-lazy swiper-lazy-loaded" src="img/micro@1x.jpg" srcset="img/micro@2x.jpg 2x" alt="adiva" width="1200" height="540")
+								p.slider__text.slider__text--sale
+									span скидки до
+									span 30%
+							.slider__footer
+								h2 adiva
+					.slider__item.swiper-slide
+						a(class="slider__link link" href="#")
+							.slider__banner
+								picture
+									// 1х: 600px; 2x: 1200px
+									source(type="image/webp", srcset="img/micro@1x.webp 1x, img/micro@2x.webp 2x")
+									img(class="swiper-lazy swiper-lazy-loaded" src="img/micro@1x.jpg" srcset="img/micro@2x.jpg 2x" alt="adiva se" width="1200" height="540")
+								p.slider__text.slider__text--sale
+									span скидки до
+									span 30%
+							.slider__footer
+								h2 adiva se
+					.slider__item.swiper-slide
+						a(class="slider__link link" href="#")
+							.slider__banner
+								picture
+									// 1х: 600px; 2x: 1200px
+									source(type="image/webp", srcset="img/strada-2@1x.webp 1x, img/strada-2@2x.webp 2x")
+									img(class="swiper-lazy swiper-lazy-loaded" src="img/strada-2@1x.jpg" srcset="img/strada-2@2x.jpg 2x" alt="strada 2" width="1200" height="540")
+								p.slider__text.slider__text--right.slider__text--sale
+									span скидки до
+									span 30%
+							.slider__footer
+								h2 strada 2
+					.slider__item.swiper-slide
+						a(class="slider__link link" href="#")
+							.slider__banner
+								picture
+									// 1х: 600px; 2x: 1200px
+									source(type="image/webp", srcset="img/PROFILESUBx2@1x.webp 1x, img/PROFILESUBx2@2x.webp 2x")
+									img(class="swiper-lazy swiper-lazy-loaded" src="img/PROFILESUBx2.jpg" srcset="img/PROFILESUBx2@2x.jpg 2x" alt="subwoofers" width="1200" height="540")
+								p.slider__text.slider__text--sale
+									span скидки до
+									span 30%
+							.slider__footer
+								h2 subwoofers
+				.swiper-pagination
+			section.catalog
+				ul.catalog__list
+					li.catalog__item(data-image="img/micro-detail" data-id="1")
+						a(class="catalog__link link" href="#") micro
+					li.catalog__item(data-image="img/micro_se" data-id="2")
+						a(class="catalog__link link" href="#") micro se
+					li.catalog__item(data-image="img/adiva_detail" data-id="3")
+						a(class="catalog__link link" href="#") adiva
+					li.catalog__item(data-image="img/adiva_se_detail" data-id="4")
+						a(class="catalog__link link" href="#") adiva se
+					li.catalog__item(data-image="img/adiva_droplet_detail" data-id="5")
+						a(class="catalog__link link" href="#") micro droplet
+					li.catalog__item(data-image="img/adiva_se_droplet_detail" data-id="6")
+						a(class="catalog__link link" href="#") micro se droplet
+					li.catalog__item(data-image="img/adiva_droplet_detail" data-id="7")
+						a(class="catalog__link link" href="#") adiva droplet
+					li.catalog__item(data-image="img/adiva_se_droplet_detail" data-id="8")
+						a(class="catalog__link link" href="#") adiva se droplet
+					li.catalog__item(data-image="img/strada_2_detail" data-id="9")
+						a(class="catalog__link link" href="#") strada 2
+					li.catalog__item(data-image="img/subwoofers_detail" data-id="10")
+						a(class="catalog__link link" href="#") subwoofers
+					li.catalog__item(data-image="img/accessories_detail" data-id="11")
+						a(class="catalog__link link" href="#") accessories
+				.catalog__img-wrapper
+					picture
+						// 1х: 600px; 2x: 1200px
+						img(class="catalog__img" src="img/micro_se@1x.jpg" srcset="img/micro_se@2x.jpg 2x" alt="Product-image")
+			section.product

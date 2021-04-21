@@ -1,0 +1,12 @@
+.header {
+  padding: 20px 24px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  @media (max-width: $mobile-width) {
+    padding: 20px 12px;
+  }
+}

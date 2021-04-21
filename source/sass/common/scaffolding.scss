@@ -1,0 +1,14 @@
+body {
+  font-family: $Gilroy;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400;
+  color: $black;
+  background-color: $white;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  appearance: none;
+  margin: 0;
+}

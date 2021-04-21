@@ -1,0 +1,22 @@
+block variables
+
+doctype html
+html(lang="en")
+	head
+		meta(charset="utf-8")
+		title #{title}
+		<!--[if IE]>
+		meta(http-equiv="X-UA-Compatible", content="IE = edge")
+		<![endif]-->
+		meta(name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1")
+		meta(name="keywords" content=desc)
+		link(rel="stylesheet" type="text/css" href="css/style.min.css")
+	body
+		.wrapper
+			include ../modules/header
+			block content
+			include ../modules/footer
+		block script
+			script(src="js/vendor.js")
+			script(src="js/main.js")
+			
